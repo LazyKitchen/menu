@@ -137,6 +137,9 @@ body {
 	flex-direction: column;
 	gap: 15px;
 }
+.lazy__date {
+	text-align: center;
+}
 .lazy__item {
 	padding: 0px 18px;
 	font-weight: 700;
@@ -150,4 +153,7 @@ body {
 .lazy__price {
 	text-align: center;
 	color: #207999;
+}
+.lazy__price .lazy__soon {
+	color: #c02525;
 }
